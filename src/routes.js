@@ -13,7 +13,6 @@ export default function AppRoutes() {
         <Route path="investimentos" element={<Investimentos />} />
         <Route path="servicos" element={<Servicos />} />
       </Route>
-
       <Route path="*" element={<Pagina404 />} />
     </Routes>
   );
